@@ -23,18 +23,33 @@ grid-template-columns: auto;
     justify-content: center;
 }
 .myBlog{
+    display: flex;
     border-radius: 10px;
     background-color: teal;
 }
+.mainblogCon{
+    /* background-color: red; */
+    width: 70%;
+}
+.sideBlog{
+    width: 30%;
+}
+
 .blog{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: bisque;
     margin: 20px;
     border-radius: 10px;
+    width: 100%;
     
 }
+.sideBlog{
+    margin-left: 40px ;
+    background-color: aquamarine;
+}
+
 .blog-title{
     color: red;
 }
