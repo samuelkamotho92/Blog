@@ -51,7 +51,7 @@ const Blogs = () => {
             </div>
             <div className='authorDetails'>
                 <div>
- Samuel Kamotho
+ Blog Author: Samuel Kamotho
                 </div>
             <div className='date'>
 {result1}
