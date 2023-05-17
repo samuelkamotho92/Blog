@@ -9,7 +9,7 @@ const MainContent = ({blogs}) => {
           <h2 className='blog-title'>Title:{blog.title}</h2>
           <h3>Author:{blog.author}</h3>
           <a href={blog.url} target="_blank" rel="noopener noreferrer">{blog.url}</a>
-          <p>summary :{blog.content}</p>
+          <p className=''>summary :{blog.content}</p>
           </div>
       </div>
     ) )}
