@@ -30,9 +30,7 @@ const blogs = [
 const Blogs = () => {
   return (
             <div className='docblog'> 
-            <Navbar />
             <Main blogs={blogs}/>
-            <Footer />
             <div>
             </div>
             </div>
